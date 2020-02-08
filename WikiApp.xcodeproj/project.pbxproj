@@ -14,6 +14,8 @@
 		995F375523EB131000133449 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 995F375423EB131000133449 /* Assets.xcassets */; };
 		995F375823EB131000133449 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 995F375623EB131000133449 /* LaunchScreen.storyboard */; };
 		995F376023EB149C00133449 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 995F375F23EB149C00133449 /* CustomTableViewCell.swift */; };
+		996309EB23EE58AF00FF05D7 /* SearchResultsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 996309EA23EE58AF00FF05D7 /* SearchResultsTableViewController.swift */; };
+		996309EF23EE5A3200FF05D7 /* APIFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 996309EE23EE5A3200FF05D7 /* APIFetcher.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		995F375723EB131000133449 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		995F375923EB131000133449 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		995F375F23EB149C00133449 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		996309EA23EE58AF00FF05D7 /* SearchResultsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultsTableViewController.swift; sourceTree = "<group>"; };
+		996309EE23EE5A3200FF05D7 /* APIFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIFetcher.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +83,8 @@
 				995F375623EB131000133449 /* LaunchScreen.storyboard */,
 				995F375923EB131000133449 /* Info.plist */,
 				995F375F23EB149C00133449 /* CustomTableViewCell.swift */,
+				996309EA23EE58AF00FF05D7 /* SearchResultsTableViewController.swift */,
+				996309EE23EE5A3200FF05D7 /* APIFetcher.swift */,
 			);
 			path = WikiApp;
 			sourceTree = "<group>";
@@ -206,7 +212,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				996309EB23EE58AF00FF05D7 /* SearchResultsTableViewController.swift in Sources */,
 				995F376023EB149C00133449 /* CustomTableViewCell.swift in Sources */,
+				996309EF23EE5A3200FF05D7 /* APIFetcher.swift in Sources */,
 				995F375023EB130D00133449 /* ViewController.swift in Sources */,
 				995F374E23EB130D00133449 /* AppDelegate.swift in Sources */,
 			);
