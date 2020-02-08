@@ -9,7 +9,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Search Results Table View Controller-->
+        <!--Wiki Search-->
         <scene sceneID="7ZG-Ck-Zwm">
             <objects>
                 <tableViewController id="JAq-rX-sm3" customClass="SearchResultsTableViewController" customModule="WikiApp" customModuleProvider="target" sceneMemberID="viewController">
@@ -57,7 +57,7 @@
                             <outlet property="delegate" destination="JAq-rX-sm3" id="2dV-RJ-TrU"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" id="M3G-e5-Lvz"/>
+                    <navigationItem key="navigationItem" title="Wiki Search" id="M3G-e5-Lvz"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pm7-ST-KQY" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
