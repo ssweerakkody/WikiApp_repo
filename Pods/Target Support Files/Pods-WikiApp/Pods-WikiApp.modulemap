@@ -1,0 +1,6 @@
+framework module Pods_WikiApp {
+  umbrella header "Pods-WikiApp-umbrella.h"
+
+  export *
+  module * { export * }
+}
